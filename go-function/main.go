@@ -5,6 +5,6 @@ import (
 )
 
 func Handler(context *nuclio.Context, event nuclio.Event) (interface{}, error) {
-    return "imported go func", nil
+    return "Hello from reference: refs/heads/go-func", nil
 }
 
